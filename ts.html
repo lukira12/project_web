@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Data Penduduk</title>
+  </head>
+  <body>
+    <h1>Form Input Data Penduduk</h1>
+    <form method="POST" action="penduduk.php">
+      <label for="nik">NIK:</label>
+      <input type="text" id="nik" name="nik" required />
+      <br />
+      
+      <label for="no_kk">No KK:</label>
+      <input type="text" id="no_kk" name="no_kk" required />
+      <br />
+
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" required />
+      <br />
+
+      <label for="jenis_kelamin">Jenis Kelamin:</label>
+      <select id="jenis_kelamin" name="jenis_kelamin" required>
+        <option value="Laki-laki">Laki-laki</option>
+        <option value="Perempuan">Perempuan</option>
+      </select>
+      <br />
+
+      <label for="tempat_lahir">Tempat Lahir:</label>
+      <input type="text" id="tempat_lahir" name="tempat_lahir" required />
+      <br />
+
+      <label for="tanggal_lahir">Tanggal Lahir:</label>
+      <input type="date" id="tanggal_lahir" name="tanggal_lahir" required />
+      <br />
+
+      <label for="gol_darah">Golongan Darah:</label>
+      <select id="gol_darah" name="gol_darah">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="AB">AB</option>
+        <option value="O">O</option>
+      </select>
+      <br />
+
+      <label for="agama">Agama:</label>
+      <input type="text" id="agama" name="agama" required />
+      <br />
+
+      <label for="status_nikah">Status Nikah:</label>
+      <select id="status_nikah" name="status_nikah">
+        <option value="Belum Menikah">Belum Menikah</option>
+        <option value="Menikah">Menikah</option>
+        <option value="Cerai">Cerai</option>
+      </select>
+      <br />
+
+      <label for="status_keluarga">Status Keluarga:</label>
+      <input type="text" id="status_keluarga" name="status_keluarga" required />
+      <br />
+
+      <label for="alamat_asal">Alamat Asal:</label>
+      <textarea id="alamat_asal" name="alamat_asal" required></textarea>
+      <br />
+
+      <label for="rt_asal">RT:</label>
+      <input type="number" id="rt_asal" name="rt_asal" required />
+      <br />
+
+      <label for="rw_asal">RW:</label>
+      <input type="number" id="rw_asal" name="rw_asal" required />
+      <br />
+
+      <label for="provinsi_asal">Provinsi Asal:</label>
+      <input type="text" id="provinsi_asal" name="provinsi_asal" required />
+      <br />
+
+      <button type="submit">Kirim</button>
+    </form>
+  </body>
+</html>

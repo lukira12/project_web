@@ -1,0 +1,112 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.login-card {
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 400px;
+  text-align: center;
+}
+
+.login-card .logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.login-card p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0 15px;
+}
+
+.login-card .divider {
+  width: 80%;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 20px auto;
+  border: none;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form-group.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.form-group.remember-me input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.form-group.remember-me label {
+  font-size: 14px;
+  font-weight: normal;
+  color: #555;
+  cursor: pointer;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: #0056b3;
+}
